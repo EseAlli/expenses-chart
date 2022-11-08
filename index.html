@@ -12,24 +12,36 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Frontend Mentor | Expenses chart component</title>
   </head>
   <body>
     <main>
-      My balance $921.48
-      <h1>Spending - Last 7 days</h1>
-      mon tue wed thu fri sat sun
-      <hr />
-      <div>
-        <p>Total this month</p>
-        <div>
-          <h2>$478.33</h2>
+      <section>
+        <div class="balance-card">
           <p>
-            +2.4% <br />
-            from last month
+            My balance<br />
+            <span>$921.48</span>
           </p>
+          <img src="./images/logo.svg" alt="logo" />
         </div>
-      </div>
+        <div class="chart">
+          <h1>Spending - Last 7 days</h1>
+          mon tue wed thu fri sat sun
+          <hr />
+          <div>
+            <p>Total this month</p>
+            <div>
+              <h2>$478.33</h2>
+              <p>
+                +2.4% <br />
+                from last month
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
