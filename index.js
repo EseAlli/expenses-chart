@@ -32,7 +32,6 @@ new Chart("myChart", {
     ],
   },
   options: {
-    responsive: true,
     scales: {
       x: {
         grid: {
