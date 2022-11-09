@@ -18,6 +18,16 @@ var barColors = [
   "hsl(10, 79%, 65%)",
 ];
 
+var hoverColors = [
+  "hsla(10, 79%, 65%, .65)",
+  "hsla(10, 79%, 65%, .65)",
+  "hsla(186, 34%, 60%, .75)",
+  "hsla(10, 79%, 65%, .65)",
+  "hsla(10, 79%, 65%, .65)",
+  "hsla(10, 79%, 65%, .65)",
+  "hsla(10, 79%, 65%, .65)",
+];
+
 const customTitle = (tooltipItems) => {
   let amount;
   tooltipItems.forEach(function (tooltipItem) {
@@ -40,10 +50,16 @@ new Chart("myChart", {
         data: yValues,
         borderRadius: 3,
         borderSkipped: false,
+        hoverBackgroundColor: hoverColors,
       },
     ],
   },
   options: {
+    onHover: (event, chartElement) => {
+      event.native.target.style.cursor = chartElement[0]
+        ? "pointer"
+        : "default";
+    },
     scales: {
       x: {
         grid: {
