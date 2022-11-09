@@ -33,7 +33,6 @@ new Chart("myChart", {
   },
   options: {
     responsive: true,
-    legend: { display: false },
     scales: {
       x: {
         grid: {
@@ -53,16 +52,15 @@ new Chart("myChart", {
           drawBorder: false,
         },
         ticks: {
-          stepSize: 5,
-          padding: 10,
-          font: {
-            size: 15,
-            weight: "bold",
-          },
           callback: (value, index, values) => {
             return;
           },
         },
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
       },
     },
   },

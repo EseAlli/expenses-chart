@@ -60,3 +60,14 @@ img {
 .bar-chart {
   margin: 1rem 0;
 }
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.inc {
+  align-self: flex-end;
+  text-align: end;
+}
