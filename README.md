@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/expenses-chart-with-chartjs-OyvsBDaoPO](https://www.frontendmentor.io/solutions/expenses-chart-with-chartjs-OyvsBDaoPO)
+- Live Site URL: [https://github.com/EseAlli/expenses-chart](https://github.com/EseAlli/expenses-chart)
 
 ## My process
 
@@ -46,7 +46,9 @@ Users should be able to:
 
 ### What I learned
 
+I learned how to use chartjs to build a bar and further customize the chart.
+
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Eseoghene Alli](https://esealli.github.io/)
+- Frontend Mentor - [@EseAlli](https://www.frontendmentor.io/profile/EseAlli)
