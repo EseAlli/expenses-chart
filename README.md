@@ -11,6 +11,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -47,6 +48,10 @@ Users should be able to:
 ### What I learned
 
 I learned how to use chartjs to build a bar and further customize the chart.
+
+### Useful resources
+
+- [ChartJs Docs](https://www.chartjs.org/docs/latest/)
 
 ## Author
 
