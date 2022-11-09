@@ -18,6 +18,18 @@ var barColors = [
   "hsl(10, 79%, 65%)",
 ];
 
+const customTitle = (tooltipItems) => {
+  let amount;
+  tooltipItems.forEach(function (tooltipItem) {
+    amount = tooltipItem.parsed.y;
+  });
+  return "$" + amount;
+};
+
+const customLabel = () => {
+  return "";
+};
+
 new Chart("myChart", {
   type: "bar",
   data: {
@@ -60,6 +72,17 @@ new Chart("myChart", {
     plugins: {
       legend: {
         display: false,
+      },
+      tooltip: {
+        displayColors: false,
+        callbacks: {
+          title: customTitle,
+          label: customLabel,
+        },
+        caretSize: 0,
+        position: "average",
+        xAlign: "center",
+        yAlign: "bottom",
       },
     },
   },
